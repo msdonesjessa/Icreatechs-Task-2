@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+}
+/*Form Style*/
+form {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(245, 20, 241, 0.2);
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus, textarea {
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #6c17ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #0ac4c4;
+}
+
+.gender-options,
+.programming-languages {
+  display: grid;
+  grid-template-columns:min-content auto;
+  grid-gap: 5px;
+  align-items: left;
+}
+
+.gender-options label,
+.programming-languages label {
+  margin: 0;
+  text-align: left !important;
+}
+
+
+
+
+
+
+
+
+
+
